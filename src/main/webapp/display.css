@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #1F4D3A;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header h1 {
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	letter-spacing: 1.5px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 23px;
+	color: #555;
+}
+
+.books {
+	margin: 40px;
+    display: grid;
+    max-width: 800 px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.books .book {
+	padding: 30px;
+}
+
+.books .book:hover {
+	 box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+	 cursor: pointer; 
+}
+
+.books .book h3 {
+	font-size: 24px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.books .book p {
+	margin-top: 10px;
+}
+
+.book:nth-child(5) {
+  grid-column: 3 / 4; 
+}
+
+.books .book img {
+	max-width: 100px;
+}

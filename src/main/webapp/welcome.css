@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #F2EFEA;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 100px;
+	font-size: 50px;
+}
+
+p#congratulations {
+	text-align: center;
+	font-size: 27px;
+}
+
+a#button {
+	display: block;
+	padding: 30px 40px;
+	margin: 50px auto;
+  	width: 200px;
+  	text-align: center;
+  	font-size: 40px;
+ 	background-color: #1F4D3A;
+ 	color: white;
+ 	text-decoration: none;
+}
+
+a#button:hover {
+	background-color: #2F6A52;
+	cursor: pointer;
+	transform: translateY(-2px);
+}
